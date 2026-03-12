@@ -1,0 +1,2 @@
+backend/plant_disease_classifier.pth filter=lfs diff=lfs merge=lfs -text
+backend/db/** filter=lfs diff=lfs merge=lfs -text

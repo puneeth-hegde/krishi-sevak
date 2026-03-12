@@ -1,0 +1,24 @@
+# --- SECRETS & LOCAL ENVIRONMENT ---
+# These should NEVER be uploaded.
+backend/.env
+frontend/.env.local
+
+# --- PYTHON DEPENDENCIES & CACHES ---
+# These are installed on the server, so we don't need to upload them.
+backend/.venv/
+backend/__pycache__/
+
+# --- NODE.JS DEPENDENCIES & BUILD FILES ---
+# These are also installed/created on the server.
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# --- TEMPORARY & OS FILES ---
+backend/temp_uploads/
+.DS_Store
+*.pyc
+
+# --- TRAINING DATA (Optional) ---
+# We ignore the large dataset used for training, as it's not needed for the running application.
+backend/dataset/
