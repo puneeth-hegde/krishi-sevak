@@ -1,4 +1,4 @@
-# Digital Krishi Officer 🌱
+# Digital Krishi Officer 🌱.
 
 **An AI-powered agricultural advisor for farmers in India, providing multilingual support, real-time data, and intelligent crop disease diagnosis.**
 
