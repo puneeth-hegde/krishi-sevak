@@ -52,7 +52,7 @@ This is the central orchestrator that manages the conversation.
 
 ## 🚀 Getting Started: Local Setup
 
-Follow these instructions to get the project running on your local machine.
+Follow these instructions to get the project running on your local machine
 
 ### Prerequisites
 
