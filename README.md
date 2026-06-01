@@ -35,7 +35,7 @@ This is the AI's specialized, local memory.
 * **Function:** The `load_db.py` script is a one-time setup tool that reads all `.txt` files from the `/documents` folder, converts the text into numerical representations (embeddings), and stores them in the local `db` folder. This allows the main application to perform semantic searches to find the most relevant local information for a user's query.
 
 ### 3. The Live Data Tools (`tools.py`)
-This file contains the Python functions that connect our application to the real world.
+This file contains the Python functions that connect our application to the real world
 * **Function:** It defines the `get_weather` and `get_market_price` functions.
 * **Mechanism:** These functions make live API calls to external services (WeatherAPI.com and data.gov.in) to fetch up-to-the-minute data. The AI agent in `main.py` can choose to call these functions when it detects a relevant user query.
 
